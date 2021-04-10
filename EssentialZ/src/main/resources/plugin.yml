@@ -1,0 +1,24 @@
+name: EssentialZ
+version: ${project.version}
+main: me.configz1.essentialz.EssentialZ
+authors: [ ConfigZ1 ]
+description: Essentials for 1.12.2 server
+commands:
+  heal:
+    description: heals the player to full health.
+    usage: /heal
+  god:
+    description: sets the players health to inf.
+    usage: /god
+  ungod:
+    description: sets the players health back to normal.
+    usage: /ungod
+  feed:
+    description: feeds the player to max hunger points.s
+    usage: /feed
+  gmc:
+    description: sets the players gamemode to 1.
+    usage: /gmc
+  gms:
+    description: sets the players gamemode to 0.
+    usage: /gms
